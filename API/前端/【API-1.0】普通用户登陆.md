@@ -30,8 +30,8 @@ http://localhost:8089/data-sharing/user/login
 ## 入参示例
 ```js
 {
-	"uEmail":"9848@1.com",
-	"uPassword":"password0"
+	"uEmail":"261@.com",
+	"uPassword":"625431"
 }
 ```
 
@@ -46,11 +46,22 @@ http://localhost:8089/data-sharing/user/login
 
 ## 返回值示例
 ```json
-{"code":"200","contents":"登录成功"}
+{
+    "code": "200",
+    "message": "登录成功",
+    "contents": [
+        {
+            "sessionId": "8217D0C2E6009017AFDF69C42DCBFA77"
+        }
+    ]
+}
 ```
 
 ```json
-{"code":"500","contents":"登录失败，请重新输入用户名和密码"}
+{
+    "code": "500",
+    "message": "登录失败，请重新输入用户名和密码"
+}
 ```
 ---
 

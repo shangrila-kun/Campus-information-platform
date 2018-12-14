@@ -1,8 +1,8 @@
-http://localhost:8089/data-sharing/user/register
+http://localhost:8089/data-sharing/user/updateUserInfo
 
 ## 功能描述
 ```
-普通用户注册
+普通用户更新
 ```
 ---
 ## 开发人员
@@ -20,18 +20,24 @@ http://localhost:8089/data-sharing/user/register
 
 ## 入参说明
 
-| 参数名    | 必选 | 类型及范围 | 描述     |
-| --------- | ---- | ---------- | -------- |
-| uName     | 是   | String     | 用户昵称 |
-| uEmail    | 是   | String     | 用户邮箱 |
-| uPassword | 是   | String     | 用户密码 |
-| uMotto    | 是   | String     | 座右铭   |
+| 参数名 | 必选 | 类型及范围 | 描述                        |
+| ------ | ---- | ---------- | --------------------------- |
+| uId    | 是   | String     | 用户ID，用户id不可更新      |
+| uEmail | 是   | String     | 用户邮箱，用户邮箱不可更新  |
+| uSex   | 是   | Integer    | 0代表男，1代表女，3代表保密 |
+| uName  | 是   | String     | 用户名称                    |
+| uMotto | 是   | String     | 座右铭                      |
+| uNote  | 否   | String     | 备注                        |
 
 ## 入参示例
 ```js
 {
-	"uEmail":"9848@1.com",
-	"uPassword":"password0"
+	"uId":1,
+	"uName":"hk",
+	"uSex":1,
+	"uEmail":"266@.com",
+	"uMotto":"hello,i am uMotto。",
+	"sessionId": "ADAEEFBBE6108CB7A1E7FE43CFD009DB"
 }
 ```
 
@@ -46,12 +52,27 @@ http://localhost:8089/data-sharing/user/register
 
 ## 返回值示例
 ```json
-{"code":"200","contents":"登录成功"}
+{
+    "code": "200",
+    "message": "更新成功"
+}
 ```
 
 ```json
-{"code":"500","contents":"用户名已被注册"}
+{
+    "code": "500",
+    "message": "更新失败"
+}
 ```
+~~~json
+{
+    "code": "501",
+    "message": "无调用权限"
+}
+~~~
+
+
+
 ---
 
 ## 补充说明
