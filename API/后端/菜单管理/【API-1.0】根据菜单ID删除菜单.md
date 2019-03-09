@@ -1,7 +1,7 @@
-http://localhost:8089/data-sharing/menu/approvalMenu
+http://localhost:8089/data-sharing/menu/deleteMenu
 
 ```
-审核菜单信息，显示为1，不显示为0,默认为0，该接口可以使1变为0，0变为1.
+根据菜单id，删除菜单
 ```
 ---
 ## 开发人员
@@ -21,14 +21,16 @@ http://localhost:8089/data-sharing/menu/approvalMenu
 
 
 
-| 参数名 | 必选 | 类型及范围 | 描述 |
-| ------ | ---- | ---------- | ---- |
-| id     | 是   | Integer    |      |
-|        |      |            |      |
+| 参数名    | 必选 | 类型及范围 | 描述 |
+| --------- | ---- | ---------- | ---- |
+| id        | 是   | Integer    |      |
+| sessionId | 是   | String     |      |
 
 ## 入参示例
 ```
-{"id":9}
+{"id":9,
+ "sessionId:"xxxxxxxxxdddddddddddd"
+}
 ```
 
 ---
@@ -44,15 +46,14 @@ http://localhost:8089/data-sharing/menu/approvalMenu
 ```
 {
     "code": "200",
-    "message": "审核成功",
-    "contents": []
+    "contents": "删除成功"
 }
 ```
 
 ```
 {
     "code": "500",
-    "message": "审核失败"
+    "message": "删除失败"
 }
 ```
 ---
