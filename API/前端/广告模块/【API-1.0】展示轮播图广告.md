@@ -52,7 +52,8 @@ http://localhost:8089/data-sharing/advertisement/getViewAdvertisements
             {
                 "id": 2,
                 "title": "我是广告Sun Mar 10 11:45:28 CST 2019",
-                "link": "www.baidu.com",
+                "imgsrc": "http://119.23.24.191:8080/1.jpg",
+                "link": "http://119.23.24.191:8080/1.jpg",
                 "isView": 1,
                 "priority": 6,
                 "createTimeStamp": 1552189528,
@@ -61,6 +62,7 @@ http://localhost:8089/data-sharing/advertisement/getViewAdvertisements
             {
                 "id": 1,
                 "title": "好好学习",
+                "imgsrc": "http://119.23.24.191:8080/2.jpg",
                 "link": "www.baidu.com",
                 "isView": 1,
                 "priority": 5,
@@ -70,7 +72,8 @@ http://localhost:8089/data-sharing/advertisement/getViewAdvertisements
             {
                 "id": 3,
                 "title": "我是广告Sun Mar 10 11:46:07 CST 2019",
-                "link": "www.ifeng.com",
+                "imgsrc": "http://119.23.24.191:8080/2.jpg",
+                "link": "http://119.23.24.191:8080/2.jpg",
                 "isView": 1,
                 "priority": 2,
                 "createTimeStamp": 1552189567,
@@ -79,7 +82,8 @@ http://localhost:8089/data-sharing/advertisement/getViewAdvertisements
             {
                 "id": 4,
                 "title": "我是广告Sun Mar 10 11:46:40 CST 2019",
-                "link": "www.ifeng.com",
+                "imgsrc": "http://119.23.24.191:8080/4.jpg",
+                "link": "http://119.23.24.191:8080/3.jpg",
                 "isView": 1,
                 "priority": 2,
                 "createTimeStamp": 1552189600,
