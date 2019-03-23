@@ -46,216 +46,175 @@ http://localhost:8080/data-sharing/news/getNewsByTitleFuzzyMatch
 ```
 {
     "code": "200",
-    "contents": {
-        "list": [
-            {
+    "contents": [
+        {
+            "id": 2,
+            "newsTitle": "第二篇新闻报道",
+            "newsContent": "hello content",
+            "sourceBigCategory": "123",
+            "sourceVisitNumber": 11,
+            "systemVisitNumber": 3,
+            "sourceCreateData": "2018-05-04",
+            "systemTimeStamp": 1540804206,
+            "contentSource": "天天快报",
+            "menu": {
+                "id": 1,
+                "menuName": "首页",
+                "menuPriority": 10,
+                "isView": 1,
+                "createTimeStamp": 1541321953
+            },
+            "note": "note"
+        },
+        {
+            "id": 15,
+            "newsTitle": "第二篇新闻报道",
+            "newsContent": "hello content",
+            "sourceBigCategory": "123",
+            "sourceVisitNumber": 11,
+            "systemVisitNumber": 3,
+            "sourceCreateData": "2018-05-04",
+            "systemTimeStamp": 1544100729,
+            "contentSource": "天天快报",
+            "menu": {
+                "id": 3,
+                "menuName": "大学生就业",
+                "menuPriority": 6,
+                "isView": 0,
+                "createTimeStamp": 1541321953
+            },
+            "note": "note"
+        },
+        {
+            "id": 18,
+            "newsTitle": "第二篇新闻报道",
+            "newsContent": "hello content",
+            "sourceBigCategory": "123",
+            "sourceVisitNumber": 11,
+            "systemVisitNumber": 3,
+            "sourceCreateData": "2018-05-04",
+            "systemTimeStamp": 1544102768,
+            "contentSource": "天天快报",
+            "menu": {
+                "id": 3,
+                "menuName": "大学生就业",
+                "menuPriority": 6,
+                "isView": 0,
+                "createTimeStamp": 1541321953
+            },
+            "note": "note"
+        },
+        {
+            "id": 20,
+            "newsTitle": "第二篇新闻报道",
+            "newsContent": "hello content",
+            "sourceBigCategory": "123",
+            "sourceVisitNumber": 11,
+            "systemVisitNumber": 3,
+            "sourceCreateData": "2018-05-04",
+            "systemTimeStamp": 1544624287,
+            "contentSource": "天天快报",
+            "menu": {
                 "id": 2,
-                "newsTitle": "第二篇新闻报道",
-                "newsContent": "hello content",
-                "sourceBigCategory": "123",
-                "sourceVisitNumber": 11,
-                "systemVisitNumber": 0,
-                "sourceCreateData": "2018-05-04",
-                "systemTimeStamp": 1540804206,
-                "contentSource": "天天快报",
-                "menu": {
-                    "id": 2,
-                    "menuName": "大学生创业",
-                    "menuPriority": 8,
-                    "isView": 1,
-                    "createTimeStamp": 1541321953
-                },
-                "note": "note"
+                "menuName": "大学生创业",
+                "menuPriority": 8,
+                "isView": 1,
+                "createTimeStamp": 1541321953
             },
-            {
-                "id": 14,
-                "newsTitle": "第二篇新闻报道",
-                "newsContent": "hello contentcontentcontent",
-                "sourceBigCategory": "123",
-                "sourceVisitNumber": 11,
-                "systemVisitNumber": 0,
-                "sourceCreateData": "2018-05-04",
-                "systemTimeStamp": 1544095443,
-                "contentSource": "天天快报",
-                "menu": {
-                    "id": 2,
-                    "menuName": "大学生创业",
-                    "menuPriority": 8,
-                    "isView": 1,
-                    "createTimeStamp": 1541321953
-                },
-                "note": "note"
+            "note": "note"
+        },
+        {
+            "id": 23,
+            "newsTitle": "第二篇新闻报道",
+            "newsContent": "hello content",
+            "sourceBigCategory": "123",
+            "sourceVisitNumber": 11,
+            "systemVisitNumber": 3,
+            "sourceCreateData": "2018-05-04",
+            "systemTimeStamp": 1544671989,
+            "contentSource": "天天快报",
+            "menu": {
+                "id": 2,
+                "menuName": "大学生创业",
+                "menuPriority": 8,
+                "isView": 1,
+                "createTimeStamp": 1541321953
             },
-            {
-                "id": 15,
-                "newsTitle": "第二篇新闻报道",
-                "newsContent": "hello content",
-                "sourceBigCategory": "123",
-                "sourceVisitNumber": 11,
-                "systemVisitNumber": 0,
-                "sourceCreateData": "2018-05-04",
-                "systemTimeStamp": 1544100729,
-                "contentSource": "天天快报",
-                "menu": {
-                    "id": 2,
-                    "menuName": "大学生创业",
-                    "menuPriority": 8,
-                    "isView": 1,
-                    "createTimeStamp": 1541321953
-                },
-                "note": "note"
+            "note": "note"
+        },
+        {
+            "id": 24,
+            "newsTitle": "第二篇新闻报道",
+            "newsContent": "hello content",
+            "sourceBigCategory": "123",
+            "sourceVisitNumber": 11,
+            "systemVisitNumber": 3,
+            "sourceCreateData": "2018-05-04",
+            "systemTimeStamp": 1544673425,
+            "contentSource": "天天快报",
+            "menu": {
+                "id": 2,
+                "menuName": "大学生创业",
+                "menuPriority": 8,
+                "isView": 1,
+                "createTimeStamp": 1541321953
             },
-            {
-                "id": 16,
-                "newsTitle": "第二篇新闻报道",
-                "newsContent": "hello content",
-                "sourceBigCategory": "123",
-                "sourceVisitNumber": 11,
-                "systemVisitNumber": 0,
-                "sourceCreateData": "2018-05-04",
-                "systemTimeStamp": 1544100798,
-                "contentSource": "天天快报",
-                "menu": {
-                    "id": 2,
-                    "menuName": "大学生创业",
-                    "menuPriority": 8,
-                    "isView": 1,
-                    "createTimeStamp": 1541321953
-                },
-                "note": "note"
+            "note": "note"
+        },
+        {
+            "id": 26,
+            "newsTitle": "第二篇新闻报道",
+            "newsContent": "hello content",
+            "sourceBigCategory": "123",
+            "sourceVisitNumber": 11,
+            "systemVisitNumber": 3,
+            "sourceCreateData": "2018-05-04",
+            "systemTimeStamp": 1544707382,
+            "contentSource": "天天快报",
+            "menu": {
+                "id": 2,
+                "menuName": "大学生创业",
+                "menuPriority": 8,
+                "isView": 1,
+                "createTimeStamp": 1541321953
             },
-            {
-                "id": 18,
-                "newsTitle": "第二篇新闻报道",
-                "newsContent": "hello content",
-                "sourceBigCategory": "123",
-                "sourceVisitNumber": 11,
-                "systemVisitNumber": 0,
-                "sourceCreateData": "2018-05-04",
-                "systemTimeStamp": 1544102768,
-                "contentSource": "天天快报",
-                "menu": {
-                    "id": 11,
-                    "menuName": "资料分享",
-                    "menuPriority": 8,
-                    "isView": 1,
-                    "createTimeStamp": 1544095041,
-                    "note": "测试"
-                },
-                "note": "note"
+            "note": "note"
+        },
+        {
+            "id": 28,
+            "newsTitle": "第二篇新闻报道",
+            "newsContent": "hello content",
+            "sourceBigCategory": "123",
+            "sourceVisitNumber": 11,
+            "systemVisitNumber": 3,
+            "sourceCreateData": "2018-05-04",
+            "systemTimeStamp": 1544708242,
+            "contentSource": "天天快报",
+            "menu": {
+                "id": 2,
+                "menuName": "大学生创业",
+                "menuPriority": 8,
+                "isView": 1,
+                "createTimeStamp": 1541321953
             },
-            {
-                "id": 20,
-                "newsTitle": "第二篇新闻报道",
-                "newsContent": "hello content",
-                "sourceBigCategory": "123",
-                "sourceVisitNumber": 11,
-                "systemVisitNumber": 0,
-                "sourceCreateData": "2018-05-04",
-                "systemTimeStamp": 1544624287,
-                "contentSource": "天天快报",
-                "menu": {
-                    "id": 2,
-                    "menuName": "大学生创业",
-                    "menuPriority": 8,
-                    "isView": 1,
-                    "createTimeStamp": 1541321953
-                },
-                "note": "note"
-            },
-            {
-                "id": 22,
-                "newsTitle": "第二篇新闻报道",
-                "newsContent": "hello content",
-                "sourceBigCategory": "123",
-                "sourceVisitNumber": 11,
-                "systemVisitNumber": 0,
-                "sourceCreateData": "2018-05-04",
-                "systemTimeStamp": 1544671677,
-                "contentSource": "天天快报",
-                "menu": {
-                    "id": 2,
-                    "menuName": "大学生创业",
-                    "menuPriority": 8,
-                    "isView": 1,
-                    "createTimeStamp": 1541321953
-                },
-                "note": "note"
-            },
-            {
-                "id": 23,
-                "newsTitle": "第二篇新闻报道",
-                "newsContent": "hello content",
-                "sourceBigCategory": "123",
-                "sourceVisitNumber": 11,
-                "systemVisitNumber": 0,
-                "sourceCreateData": "2018-05-04",
-                "systemTimeStamp": 1544671989,
-                "contentSource": "天天快报",
-                "menu": {
-                    "id": 2,
-                    "menuName": "大学生创业",
-                    "menuPriority": 8,
-                    "isView": 1,
-                    "createTimeStamp": 1541321953
-                },
-                "note": "note"
-            },
-            {
-                "id": 24,
-                "newsTitle": "第二篇新闻报道",
-                "newsContent": "hello content",
-                "sourceBigCategory": "123",
-                "sourceVisitNumber": 11,
-                "systemVisitNumber": 0,
-                "sourceCreateData": "2018-05-04",
-                "systemTimeStamp": 1544673425,
-                "contentSource": "天天快报",
-                "menu": {
-                    "id": 2,
-                    "menuName": "大学生创业",
-                    "menuPriority": 8,
-                    "isView": 1,
-                    "createTimeStamp": 1541321953
-                },
-                "note": "note"
-            },
-            {
-                "id": 25,
-                "newsTitle": "第二篇新闻报道",
-                "newsContent": "hello content",
-                "sourceBigCategory": "123",
-                "sourceVisitNumber": 11,
-                "systemVisitNumber": 0,
-                "sourceCreateData": "2018-05-04",
-                "systemTimeStamp": 1544673545,
-                "contentSource": "天天快报",
-                "menu": {
-                    "id": 2,
-                    "menuName": "大学生创业",
-                    "menuPriority": 8,
-                    "isView": 1,
-                    "createTimeStamp": 1541321953
-                },
-                "note": "note"
-            }
-        ],
-        "size": 10
-    }
+            "note": "note"
+        }
+        
+    ]
 }
 ```
 
 ```
 {
     "code": "500",
-    "message": "调用失败"
+    "message": "参数有误"
 }
 ```
 ---
 
 ## 补充说明
 ~~~js
-201 代表返回成功
+200 代表返回成功
 500 代表待用失败
 ~~~
 

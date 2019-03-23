@@ -48,7 +48,7 @@ http://localhost:8089/data-sharing/news/listNews
 ## 返回值示例
 ```
 {
-    "code": "201",
+    "code": "200",
     "contents": {
         "list": [
             {
@@ -260,7 +260,7 @@ http://localhost:8089/data-sharing/news/listNews
 
 ## 补充说明
 ~~~js
-201 代表返回成功
+200 代表返回成功
 500 代表待用失败
 ~~~
 
