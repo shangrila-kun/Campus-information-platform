@@ -32,7 +32,6 @@ http://localhost:8089/data-sharing/comment/getComments
 ## 入参示例
 ```js
 {
-	"sessionId":"C1E23BCF1EB333F8DDF4E7E1126B1B58",
 	"newsId":51,
 	"pageNum":1,
 	"pageCount":10
