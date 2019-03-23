@@ -24,7 +24,6 @@ http://localhost:8089/data-sharing/comment/getComments
 
 | 参数名    | 必选 | 类型及范围 | 描述         |
 | --------- | ---- | ---------- | ------------ |
-| sessionId | 是   | String     |              |
 | newsId    | 是   | Integer    |              |
 | pageNum   | 是   | Integer    | 当前页数     |
 | pageCount | 是   | Integer    | 每页显示几条 |
