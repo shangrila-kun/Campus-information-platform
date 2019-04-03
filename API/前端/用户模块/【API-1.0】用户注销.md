@@ -42,11 +42,11 @@ http://localhost:8089/data-sharing/user/loginout
 
 ## 返回值示例
 ```json
-{"code":"200","contents":"注销成功"}
+{"code":"200","message":"注销成功"}
 ```
 
 ```json
-{"code":"500","contents":"无访问权限"}
+{"code":"500","message":"无访问权限"}
 ```
 ---
 
