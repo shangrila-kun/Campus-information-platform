@@ -1,4 +1,4 @@
-http://localhost:8089/data-sharing/user/examUserNameInSystem
+http://localhost:8089/data-sharing/user/examUserInSystem
 
 ## 功能描述
 ```
