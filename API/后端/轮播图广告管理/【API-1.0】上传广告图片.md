@@ -14,7 +14,7 @@ http://localhost:8089/data-sharing/upload/advertisement
 | Key              | Value |
 | ---------------- | ----- |
 | **HTTP请求方式** | POST  |
-| **支持格式**     | JSON  |
+| **支持格式**     | form-data  |
 | **是否需要登录** | 否    |
 
 ## 入参说明
@@ -24,12 +24,12 @@ http://localhost:8089/data-sharing/upload/advertisement
 | 参数名    | 必选 | 类型及范围 | 描述   |
 | --------- | ---- | ---------- | ------ |
 | sessionId | 是   | String     |        |
-| id        | 是   | Integer    | 广告号 |
+| file        | 是   | file    | 图片 |
 
 ## 入参示例
 ```
 {
-	##待定
+	form-data形式，入参包括sessionId和file,可以百度查看vue上传图片代码
 }
 ```
 
