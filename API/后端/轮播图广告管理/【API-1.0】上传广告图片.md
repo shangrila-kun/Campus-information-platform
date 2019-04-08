@@ -29,7 +29,7 @@ http://localhost:8089/data-sharing/upload/advertisement
 ## 入参示例
 ```
 {
-	form-data形式，入参包括sessionId和file,可以百度查看vue上传图片代码
+	form-data形式，入参包括sessionId和file,可以百度查看vue上传图片代码,form-data 格式
 }
 ```
 
@@ -46,16 +46,18 @@ http://localhost:8089/data-sharing/upload/advertisement
 ```
 {
     "code": "200",
-    "message": "文件上传成功"，
-    "link":"www.baidu.com"
+    "message": "success",
+    "contents": [
+        "http://xxxxxxx:8080/img/20190408215736314237jpg"
+    ]
 }
 ```
 
 ```
 {
     "code": "500",
-    "message": "无访问权限",
-    "contents": []
+    "message": "error",
+   
 }
 ```
 ---
