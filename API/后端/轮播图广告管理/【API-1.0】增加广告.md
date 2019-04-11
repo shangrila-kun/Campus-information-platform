@@ -26,6 +26,7 @@ http://localhost:8089/data-sharing/advertisement/insertAdvertisement
 | sessionId | 是   | String     |                                   |
 | title     | 是   | String     | 广告名称                          |
 | link      | 是   | String     | 广告链接                          |
+|imgsrc|是|String|广告图片的地址，即
 | isView    | 否   | Integer    | 1代表显示，0代表不显示，默认值为0 |
 | priority  | 否   | Integer    | 默认值为5                         |
 | note      | 否   | String     | 备注                              |
