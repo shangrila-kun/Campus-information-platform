@@ -53,6 +53,66 @@ http://localhost:8089/data-sharing/resource/listResource
         {
             "list": [
                 {
+                    "id": 42,
+                    "content": "1",
+                    "type": "校园竞赛类",
+                    "user": {
+                        "uId": 1,
+                        "uName": "管理员",
+                        "uPassword": "manager@1.com",
+                        "uEmail": "manager@qq.com",
+                        "uStatus": "0",
+                        "uRank": 0,
+                        "uMotto": "hello,i am uMotto。"
+                    },
+                    "goodNums": 0,
+                    "visitNums": 170,
+                    "createTime": 1554296499,
+                    "title": "title",
+                    "url": "url",
+                    "isView": 1
+                },
+                {
+                    "id": 39,
+                    "content": "w",
+                    "type": "电子书资源类",
+                    "user": {
+                        "uId": 1,
+                        "uName": "管理员",
+                        "uPassword": "manager@1.com",
+                        "uEmail": "manager@qq.com",
+                        "uStatus": "0",
+                        "uRank": 0,
+                        "uMotto": "hello,i am uMotto。"
+                    },
+                    "goodNums": 0,
+                    "visitNums": 187,
+                    "createTime": 1554294580,
+                    "title": "title",
+                    "url": "url",
+                    "isView": 1
+                },
+                {
+                    "id": 31,
+                    "content": "这是我上传的点子书，大家可以点击下载，www.baidu.com",
+                    "type": "电子书资源",
+                    "user": {
+                        "uId": 1,
+                        "uName": "管理员",
+                        "uPassword": "manager@1.com",
+                        "uEmail": "manager@qq.com",
+                        "uStatus": "0",
+                        "uRank": 0,
+                        "uMotto": "hello,i am uMotto。"
+                    },
+                    "goodNums": 0,
+                    "visitNums": 375,
+                    "createTime": 1553319485,
+                    "title": "title",
+                    "url": "url",
+                    "isView": 1
+                },
+                {
                     "id": 18,
                     "content": "我是用户3 因为分享是一项传统美德，是一项生活技能，与人分享快乐，能使别人更快乐，自己也快乐。这是我的分享2",
                     "type": "电子书资源",
@@ -61,13 +121,14 @@ http://localhost:8089/data-sharing/resource/listResource
                         "uName": "xiu",
                         "uPassword": "123",
                         "uEmail": "xiu@qq.com",
-                        "uStatus": "0",
+                        "uStatus": "1",
                         "uRank": 0,
                         "uMotto": "我是一个好孩子"
                     },
                     "goodNums": 0,
-                    "visitNums": 5,
-                    "createTime": 1553315204
+                    "visitNums": 381,
+                    "createTime": 1553315204,
+                    "isView": 1
                 },
                 {
                     "id": 19,
@@ -75,16 +136,17 @@ http://localhost:8089/data-sharing/resource/listResource
                     "type": "其他",
                     "user": {
                         "uId": 1,
-                        "uName": "hk",
-                        "uPassword": "111",
-                        "uEmail": "11",
-                        "uStatus": "1",
+                        "uName": "管理员",
+                        "uPassword": "manager@1.com",
+                        "uEmail": "manager@qq.com",
+                        "uStatus": "0",
                         "uRank": 0,
                         "uMotto": "hello,i am uMotto。"
                     },
                     "goodNums": 0,
-                    "visitNums": 5,
-                    "createTime": 1553315204
+                    "visitNums": 381,
+                    "createTime": 1553315204,
+                    "isView": 1
                 },
                 {
                     "id": 20,
@@ -92,7 +154,7 @@ http://localhost:8089/data-sharing/resource/listResource
                     "type": "源码资源",
                     "user": {
                         "uId": 2,
-                        "uName": "",
+                        "uName": "22",
                         "uPassword": "22",
                         "uEmail": "22",
                         "uStatus": "1",
@@ -100,8 +162,9 @@ http://localhost:8089/data-sharing/resource/listResource
                         "uMotto": ""
                     },
                     "goodNums": 0,
-                    "visitNums": 5,
-                    "createTime": 1553315204
+                    "visitNums": 381,
+                    "createTime": 1553315204,
+                    "isView": 1
                 },
                 {
                     "id": 21,
@@ -112,13 +175,14 @@ http://localhost:8089/data-sharing/resource/listResource
                         "uName": "xiu",
                         "uPassword": "123",
                         "uEmail": "xiu@qq.com",
-                        "uStatus": "0",
+                        "uStatus": "1",
                         "uRank": 0,
                         "uMotto": "我是一个好孩子"
                     },
                     "goodNums": 0,
-                    "visitNums": 5,
-                    "createTime": 1553315204
+                    "visitNums": 381,
+                    "createTime": 1553315204,
+                    "isView": 1
                 },
                 {
                     "id": 22,
@@ -126,16 +190,17 @@ http://localhost:8089/data-sharing/resource/listResource
                     "type": "电子书资源",
                     "user": {
                         "uId": 1,
-                        "uName": "hk",
-                        "uPassword": "111",
-                        "uEmail": "11",
-                        "uStatus": "1",
+                        "uName": "管理员",
+                        "uPassword": "manager@1.com",
+                        "uEmail": "manager@qq.com",
+                        "uStatus": "0",
                         "uRank": 0,
                         "uMotto": "hello,i am uMotto。"
                     },
                     "goodNums": 0,
-                    "visitNums": 5,
-                    "createTime": 1553315204
+                    "visitNums": 320,
+                    "createTime": 1553315204,
+                    "isView": 1
                 },
                 {
                     "id": 23,
@@ -143,7 +208,7 @@ http://localhost:8089/data-sharing/resource/listResource
                     "type": "其他",
                     "user": {
                         "uId": 2,
-                        "uName": "",
+                        "uName": "22",
                         "uPassword": "22",
                         "uEmail": "22",
                         "uStatus": "1",
@@ -151,8 +216,9 @@ http://localhost:8089/data-sharing/resource/listResource
                         "uMotto": ""
                     },
                     "goodNums": 0,
-                    "visitNums": 5,
-                    "createTime": 1553315204
+                    "visitNums": 319,
+                    "createTime": 1553315204,
+                    "isView": 1
                 },
                 {
                     "id": 24,
@@ -163,67 +229,17 @@ http://localhost:8089/data-sharing/resource/listResource
                         "uName": "xiu",
                         "uPassword": "123",
                         "uEmail": "xiu@qq.com",
-                        "uStatus": "0",
+                        "uStatus": "1",
                         "uRank": 0,
                         "uMotto": "我是一个好孩子"
                     },
                     "goodNums": 0,
-                    "visitNums": 5,
-                    "createTime": 1553315204
-                },
-                {
-                    "id": 25,
-                    "content": "我是用户1 因为分享是一项传统美德，是一项生活技能，与人分享快乐，能使别人更快乐，自己也快乐。这是我的分享9",
-                    "type": "视频资源",
-                    "user": {
-                        "uId": 1,
-                        "uName": "hk",
-                        "uPassword": "111",
-                        "uEmail": "11",
-                        "uStatus": "1",
-                        "uRank": 0,
-                        "uMotto": "hello,i am uMotto。"
-                    },
-                    "goodNums": 0,
-                    "visitNums": 5,
-                    "createTime": 1553315204
-                },
-                {
-                    "id": 26,
-                    "content": "我是用户2 因为分享是一项传统美德，是一项生活技能，与人分享快乐，能使别人更快乐，自己也快乐。这是我的分享10",
-                    "type": "电子书资源",
-                    "user": {
-                        "uId": 2,
-                        "uName": "",
-                        "uPassword": "22",
-                        "uEmail": "22",
-                        "uStatus": "1",
-                        "uRank": 0,
-                        "uMotto": ""
-                    },
-                    "goodNums": 0,
-                    "visitNums": 5,
-                    "createTime": 1553315204
-                },
-                {
-                    "id": 27,
-                    "content": "我是用户3 因为分享是一项传统美德，是一项生活技能，与人分享快乐，能使别人更快乐，自己也快乐。这是我的分享11",
-                    "type": "其他",
-                    "user": {
-                        "uId": 3,
-                        "uName": "xiu",
-                        "uPassword": "123",
-                        "uEmail": "xiu@qq.com",
-                        "uStatus": "0",
-                        "uRank": 0,
-                        "uMotto": "我是一个好孩子"
-                    },
-                    "goodNums": 0,
-                    "visitNums": 5,
-                    "createTime": 1553315204
+                    "visitNums": 221,
+                    "createTime": 1553315204,
+                    "isView": 1
                 }
             ],
-            "size": 15
+            "size": 18
         }
     ]
 }
@@ -245,5 +261,12 @@ goodNums 代表点赞数，本模块暂时不实现点赞功能
 visitNums 代表浏览器，建议使用
 createTime 代表发布时间，时间戳类型
 显示xx发布的，可以从user对象中获取用户信息。
+
+资源分享模块：建议前台至少展示以下内容：
+资源的标题：title
+资源的摘要：content
+资源的创建时间：createTime
+资源的访问次数：visitNums
+其中，点击标题跳转至：url
 ~~~
 

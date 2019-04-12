@@ -32,6 +32,8 @@ http://localhost:8080/data-sharing/resource/insertResource
 ```
 {
 	"sessionId":"CB82479072E7AFAE599C6D15CE32B211",
+	"title":"title",
+	"url":"www.baidu.com",
 	"content":"这是我上传的点子书，大家可以点击下载，www.baidu.com",
 	"type":"电子书资源"
 }
