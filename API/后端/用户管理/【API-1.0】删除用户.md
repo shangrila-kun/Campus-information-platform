@@ -24,13 +24,13 @@ http://localhost:8089/data-sharing/user/delete
 | 参数名    | 必选 | 类型及范围 | 描述         |
 | --------- | ---- | ---------- | ------------ |
 | sessionId | 是   | String     |              |
-| id        | 是   | Integer    | 当前是第几页 |
+| uId        | 是   | Integer    | |
 
 ## 入参示例
 ```
 {
 	"sessionId":"52BF062CBC6D69EBFFDAD909E9BFAC31",
-	"id":1
+	"uId":1
 }
 ```
 
