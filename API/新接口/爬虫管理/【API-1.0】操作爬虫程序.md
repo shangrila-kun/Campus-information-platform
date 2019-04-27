@@ -14,7 +14,7 @@ http://localhost:8888/api/v1.0/crawler/update/{id}/
 | Key              | Value |
 | ---------------- | ----- |
 | **HTTP请求方式** | PUT |
-| **支持格式**     | application/json |
+| **支持格式**     | application/x-www-form-urlencoded |
 | **是否需要登录** | 是 |
 
 ## 入参说明

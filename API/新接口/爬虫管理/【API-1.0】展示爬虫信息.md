@@ -14,7 +14,7 @@ http://domain/api/v1.0/crawler/list
 | Key              | Value |
 | ---------------- | ----- |
 | **HTTP请求方式** | GET |
-| **支持格式**     | application/json |
+| **支持格式**     | application/x-www-form-urlencoded |
 | **是否需要登录** | 否    |
 
 ## 入参说明
@@ -24,7 +24,6 @@ http://domain/api/v1.0/crawler/list
 | 参数名    | 必选 | 类型及范围 | 描述   |
 | --------- | ---- | ---------- | ------ |
 | sessionId | 是   | String     |        |
-| file        | 是   | file    | 图片 |
 
 ## 入参示例
 ```
